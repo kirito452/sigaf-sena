@@ -1,0 +1,92 @@
+/* Tablets */
+@media (max-width: 1024px) {
+    .login-container {
+        grid-template-columns: 1fr;
+        height: auto;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .login-form-section {
+        padding: var(--spacing-2xl);
+    }
+
+    .login-image-section {
+        min-height: 300px;
+        padding: var(--spacing-2xl);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .login-form-section {
+        padding: var(--spacing-2xl) var(--spacing-lg);
+    }
+
+    .login-content {
+        max-width: 100%;
+    }
+
+    .login-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-sena {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .login-header h1 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .sigaf-branding h2 {
+        font-size: var(--font-size-xl);
+    }
+
+    .demo-credentials {
+        margin-bottom: var(--spacing-xl);
+    }
+
+    .credentials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .image-text ul {
+        text-align: center;
+    }
+
+    .image-text li {
+        justify-content: center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    .login-form-section {
+        padding: var(--spacing-xl);
+    }
+
+    .login-header {
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    .sigaf-branding {
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    .illustration {
+        font-size: 48px;
+        gap: var(--spacing-md);
+    }
+
+    .image-text h3 {
+        font-size: var(--font-size-lg);
+    }
+}
